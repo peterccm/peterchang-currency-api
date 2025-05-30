@@ -1,0 +1,109 @@
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /currencyInfo/renewData
+       Parameters = {renewAction=[1]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.peterchang.currency_api.controller.CurrencyInfoController
+           Method = com.peterchang.currency_api.controller.CurrencyInfoController#doRenewCurrencyData(CurrencyInfoReqBody)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json"]
+     Content type = application/json
+             Body = {"accessTime":"2025-05-29T18:48:24.365+00:00","rtnCode":"0000","rtnMsg":"執行成功","data":{"queryTime":"2025/05/30 02:48:24","details":[{"currencyId":"TWD","currencyName":"新台幣","currencyEName":"TAIWAN DOLLAR","symbol":"NT$","rate":"32.250000","rateFloat":"32.250000","updateTime":"2025/05/30 02:48:16","createTime":"2025/05/30 02:48:16"},{"currencyId":"USD","currencyName":"美元","currencyEName":"United States Dollar","symbol":"$","rate":"57756.298","rateFloat":"57756.2984","updateTime":"2025/05/30 02:48:24","createTime":"2024/09/02 15:07:20"},{"currencyId":"EUR","currencyName":"歐元","currencyEName":"Euro","symbol":"€","rate":"52243.287","rateFloat":"52243.2865","updateTime":"2025/05/30 02:48:24","createTime":"2024/09/02 15:07:20"},{"currencyId":"JPY","currencyName":"日圓","currencyEName":"JAPANESE YEN","symbol":"¥","rate":"156.430000","rateFloat":"156.430000","updateTime":"2025/05/30 02:48:16","createTime":"2025/05/30 02:48:16"},{"currencyId":"CNY","currencyName":"人民幣","currencyEName":"CHINESE YUAN","symbol":"¥","rate":"7.240000","rateFloat":"7.240000","updateTime":"2025/05/30 02:48:16","createTime":"2025/05/30 02:48:16"},{"currencyId":"GBP","currencyName":"英鎊","currencyEName":"British Pound Sterling","symbol":"£","rate":"43984.02","rateFloat":"43984.0203","updateTime":"2025/05/30 02:48:24","createTime":"2024/09/02 15:07:20"}]}}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+[RequestBody]
+========================================
+(無 Request Body)
+========================================
+
+[ResponseBody]
+========================================
+{
+  "accessTime" : "2025-05-29T18:48:24.365+00:00",
+  "rtnCode" : "0000",
+  "rtnMsg" : "執行成功",
+  "data" : {
+    "queryTime" : "2025/05/30 02:48:24",
+    "details" : [ {
+      "currencyId" : "TWD",
+      "currencyName" : "新台幣",
+      "currencyEName" : "TAIWAN DOLLAR",
+      "symbol" : "NT$",
+      "rate" : "32.250000",
+      "rateFloat" : "32.250000",
+      "updateTime" : "2025/05/30 02:48:16",
+      "createTime" : "2025/05/30 02:48:16"
+    }, {
+      "currencyId" : "USD",
+      "currencyName" : "美元",
+      "currencyEName" : "United States Dollar",
+      "symbol" : "$",
+      "rate" : "57756.298",
+      "rateFloat" : "57756.2984",
+      "updateTime" : "2025/05/30 02:48:24",
+      "createTime" : "2024/09/02 15:07:20"
+    }, {
+      "currencyId" : "EUR",
+      "currencyName" : "歐元",
+      "currencyEName" : "Euro",
+      "symbol" : "€",
+      "rate" : "52243.287",
+      "rateFloat" : "52243.2865",
+      "updateTime" : "2025/05/30 02:48:24",
+      "createTime" : "2024/09/02 15:07:20"
+    }, {
+      "currencyId" : "JPY",
+      "currencyName" : "日圓",
+      "currencyEName" : "JAPANESE YEN",
+      "symbol" : "¥",
+      "rate" : "156.430000",
+      "rateFloat" : "156.430000",
+      "updateTime" : "2025/05/30 02:48:16",
+      "createTime" : "2025/05/30 02:48:16"
+    }, {
+      "currencyId" : "CNY",
+      "currencyName" : "人民幣",
+      "currencyEName" : "CHINESE YUAN",
+      "symbol" : "¥",
+      "rate" : "7.240000",
+      "rateFloat" : "7.240000",
+      "updateTime" : "2025/05/30 02:48:16",
+      "createTime" : "2025/05/30 02:48:16"
+    }, {
+      "currencyId" : "GBP",
+      "currencyName" : "英鎊",
+      "currencyEName" : "British Pound Sterling",
+      "symbol" : "£",
+      "rate" : "43984.02",
+      "rateFloat" : "43984.0203",
+      "updateTime" : "2025/05/30 02:48:24",
+      "createTime" : "2024/09/02 15:07:20"
+    } ]
+  }
+}
+========================================

@@ -1,0 +1,7 @@
+spring:
+  sql:
+    init: 
+      mode: never
+ext-api:
+  coindesk:
+    url: https://kengp3.github.io/blog/coindesk.json
